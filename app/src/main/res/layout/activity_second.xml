@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05142E"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="218dp"
+        android:layout_height="332dp"
+        android:layout_alignStart="@id/temperatureValueTextView"
+        android:layout_alignTop="@id/humidityTextView"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="356dp"
+        app:srcCompat="@drawable/pngegg__2_" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="221dp"
+        android:layout_height="336dp"
+        android:layout_alignStart="@id/temperatureValueTextView"
+        android:layout_alignTop="@id/humidityTextView"
+        android:layout_marginStart="-69dp"
+        android:layout_marginTop="-42dp"
+        app:srcCompat="@drawable/pngegg__2_" />
+
+    <TextView
+        android:id="@+id/humidityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="69dp"
+        android:background="#000000"
+        android:padding="8dp"
+        android:text="Humidité: "
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/temperatureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="168dp"
+        android:background="#000000"
+        android:padding="8dp"
+        android:text="Température: "
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/humidityValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/humidityTextView"
+        android:layout_alignStart="@id/humidityTextView"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="33dp"
+        android:text="0%"
+        android:textColor="#00BCD4"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/temperatureValueTextView"
+        android:layout_width="104dp"
+        android:layout_height="69dp"
+        android:layout_below="@id/temperatureTextView"
+        android:layout_alignEnd="@id/temperatureTextView"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="79dp"
+        android:text="0°C"
+        android:textColor="#FFEB3B"
+        android:textColorLink="#CDDC39"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

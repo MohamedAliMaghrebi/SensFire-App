@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "376554235182",
+    "firebase_url": "https://fir-app-a01e8-default-rtdb.firebaseio.com",
+    "project_id": "fir-app-a01e8",
+    "storage_bucket": "fir-app-a01e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376554235182:android:b00bb08cecd21fac38c6bf",
+        "android_client_info": {
+          "package_name": "com.example.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376554235182-nimc6fd36tchj5288kbetehb3pore920.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbh_nLIbyNXo7DJPHsiaattin9xi2oHNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376554235182-nimc6fd36tchj5288kbetehb3pore920.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376554235182:android:03edddbf74964d2538c6bf",
+        "android_client_info": {
+          "package_name": "com.example.iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376554235182-nimc6fd36tchj5288kbetehb3pore920.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbh_nLIbyNXo7DJPHsiaattin9xi2oHNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376554235182-nimc6fd36tchj5288kbetehb3pore920.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

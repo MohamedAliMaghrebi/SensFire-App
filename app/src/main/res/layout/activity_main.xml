@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05142E"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Lg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Login"
+        android:textColor="#FFEB3B"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Votre Login ici"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textColor="#FFEB3B"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtP"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Votre paswword ici"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#FF0000"
+        android:text="VALIDER"
+        android:textColor="#131313"
+        android:textColorLink="#00BCD4"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+        android:background="#6200ED"
+        app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="338dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/pngwing_com" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="228dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/pngjoy_com_sensor_dht11_keyes_transparent_png_6634433" />
+
+</LinearLayout>
